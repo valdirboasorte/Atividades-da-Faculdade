@@ -1,0 +1,17 @@
+1. QUESTÃO escrever um numero na tela e fazer aparecer o numero antecessor a ele e o numero sucessor a ele automaticamente.
+
+package Questão1;
+import java.util.Scanner;
+public class Aula01 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite um numero");
+        int numero = teclado.nextInt();
+        System.out.println("o conteudo apresentado é: " + numero);
+        System.out.println("o conteudo apresentado anterior é: " + (numero -1));
+        System.out.println("o conteudo apresentado sucessor é: " + (numero +1));
+   
+    }
+    
+}
+
